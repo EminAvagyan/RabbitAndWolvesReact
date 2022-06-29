@@ -4,7 +4,7 @@ import Image from "./createImageTag.js"
 const GameOverMessage = (props) => {
   return (
     <div className={"message_div"}>
-      <p>{props.message}</p>
+      <h1>{props.message}</h1>
     </div>
   )
 }

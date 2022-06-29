@@ -11,6 +11,7 @@ const GamebordAndButtons = () => {
   const [value, setValue] = useState(optionsArray[0])
   const [gameState, setGameState] = useState({
     gameArray: [],
+    
     gameRunning: true,
     gameStatus: "",
   })
